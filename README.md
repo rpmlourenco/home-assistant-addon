@@ -13,6 +13,13 @@ For issues, please go to [the issue tracker](https://github.com/music-assistant/
 
 For feature requests, please see [feature requests](https://github.com/music-assistant/hass-music-assistant/discussions/categories/feature-requests-and-ideas).
 
+## Personal Sonos HTTPS artwork add-on
+
+This fork also contains `music_assistant_personal`, which installs the personal
+ARM64 image published from `rpmlourenco/server`. Its build and upstream update
+procedure is documented in the
+[Sonos HTTPS artwork fork maintenance guide](https://github.com/rpmlourenco/server/blob/sonos-https-artwork/docs/SONOS_HTTPS_ARTWORK_FORK.md).
+
 
 ## Installation
 
