@@ -1,3 +1,8 @@
+## 2.10.4.dev9
+
+- Reject incompatible local import candidates before reading their files. Conflicting MusicBrainz release-track IDs and unrelated recordings no longer launch ffprobe or reload album/artist metadata during edition matching.
+- Keep native source validation for ambiguous matches and preserve local edition separation.
+
 ## 2.10.4.dev8
 
 - Separate local tracks from different album releases during import, preserving the official matching behaviour for other providers.
