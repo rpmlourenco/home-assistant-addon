@@ -1,3 +1,14 @@
+## 2.10.5.dev2
+
+- Let the nightly background audio-analysis scan run until all current candidate tracks are exhausted instead of stopping after a global four-hour budget.
+- Retain the existing per-track timeout and provider hang safeguards.
+- Ignore overlapping scheduled triggers while the same analysis task is already pending or running.
+
+## 2.10.5.dev1
+
+- Rebase the personal fork onto official Music Assistant 2.10.5 while preserving the custom behaviour from 2.10.4.dev9 and upstream fixes.
+- Correct the background-analysis PCM format so decoded audio is not interpreted using the compressed source codec.
+
 ## 2.10.4.dev9
 
 - Reject incompatible local import candidates before reading their files. Conflicting MusicBrainz release-track IDs and unrelated recordings no longer launch ffprobe or reload album/artist metadata during edition matching.
