@@ -1,3 +1,13 @@
+## 2.10.5.dev4
+
+- Include the shared analysis models, lazy provider exports and Smart Fades helpers
+  required to keep the server image consistent with the offline analysis code.
+- Include offline CUDA support for Smart Fades and Sonic; Home Assistant continues
+  to use CPU defaults, and existing sidecars do not require recomputation.
+- Validate standalone imports in the installed image and extend Smart Fades
+  regression checks before publishing the ARM64 image.
+- Maintain the server fork on main, with Git tags and matching image/add-on versions.
+
 ## 2.10.5.dev3
 
 - Import precomputed audio-analysis results from gzip JSON `.lda` files alongside local FLAC tracks during background scans.
