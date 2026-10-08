@@ -27,7 +27,7 @@ The server repository is the single source of truth for the personal changes,
 image architecture, build procedure and upgrades from new Music Assistant
 stable versions:
 
-[Personal Music Assistant fork maintenance guide](https://github.com/rpmlourenco/server/blob/2.10.5.dev2/docs/PERSONAL_FORK.md)
+[Personal Music Assistant fork maintenance guide](https://github.com/rpmlourenco/server/blob/2.10.5.dev3/docs/PERSONAL_FORK.md)
 
 ## Updating Home Assistant
 

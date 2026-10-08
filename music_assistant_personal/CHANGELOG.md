@@ -1,3 +1,11 @@
+## 2.10.5.dev3
+
+- Import precomputed audio-analysis results from gzip JSON `.lda` files alongside local FLAC tracks during background scans.
+- Validate the source audio fingerprint and each provider's algorithm version, then persist valid results to SQLite.
+- Calculate only missing providers on Home Assistant, with an enabled-by-default option to disable local background fallback.
+- Support PC-side pre-analysis through FlacConverter's `analyze-audio` command, with incremental provider updates and atomic sidecar publication.
+- Keep playback based on SQLite and preserve FLAC audio and tags.
+
 ## 2.10.5.dev2
 
 - Let the nightly background audio-analysis scan run until all current candidate tracks are exhausted instead of stopping after a global four-hour budget.
