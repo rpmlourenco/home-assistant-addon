@@ -1,3 +1,16 @@
+## 2.10.5.dev5
+
+- Combine Similar Tracks from active providers, including Last.fm and Sonic
+  Similarity, instead of keeping only the first provider's results.
+- Interleave provider rankings, remove duplicates and the seed track, and honor
+  the total result limit. A failed provider does not suppress healthy results.
+- Use the same combined recommendations for radio continuation and Auto/Similar
+  autoplay. Library/Playlist autoplay modes and recent/queued-track filters stay
+  unchanged.
+- Include the post-dev4 typing corrections and validate similarity/autoplay/radio
+  regressions, installed-image merge behavior, and the global mypy gate.
+- Keep existing analysis results and settings; no library reanalysis is required.
+
 ## 2.10.5.dev4
 
 - Include the shared analysis models, lazy provider exports and Smart Fades helpers
