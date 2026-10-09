@@ -1,3 +1,10 @@
+## 2.10.5.dev6
+
+- Reduce the global metadata update interval from 30 to 3 seconds.
+- Keep provider-specific limits unchanged, including LRCLIB, and retain existing
+  settings and audio analysis results; no library reanalysis is required.
+- Validate metadata regressions and the installed throttle before publication.
+
 ## 2.10.5.dev5
 
 - Combine Similar Tracks from active providers, including Last.fm and Sonic
