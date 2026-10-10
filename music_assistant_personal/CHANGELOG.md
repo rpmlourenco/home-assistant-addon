@@ -1,3 +1,11 @@
+## 2.10.6.dev1
+
+- Update the personal server base to official Music Assistant 2.10.6 while
+  preserving the custom local-edition, audio-analysis, Similar Tracks, Sonos
+  artwork and metadata pacing behaviour.
+- Include the official 2.10.6 playback, provider, security and task-queue fixes.
+- Keep existing settings and analysis sidecars; no library reanalysis is required.
+
 ## 2.10.5.dev6
 
 - Reduce the global metadata update interval from 30 to 3 seconds.
