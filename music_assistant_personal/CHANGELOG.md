@@ -1,3 +1,10 @@
+## 2.10.6.dev5
+
+- Suppress the false background-task notification after adding one playlist track;
+  the single-track operation remains synchronous.
+- Keep multi-track additions on the managed background-task path.
+- Preserve existing settings and data; no migration is required.
+
 ## 2.10.6.dev4
 
 - Reduce the global metadata lookup delay from 3 seconds to 1 second.
