@@ -1,3 +1,10 @@
+## 2.10.6.dev4
+
+- Reduce the global metadata lookup delay from 3 seconds to 1 second.
+- Add a single track to a playlist synchronously while keeping multi-track additions
+  on the existing background-task path.
+- Preserve existing settings and data; no migration is required.
+
 ## 2.10.6.dev1
 
 - Update the personal server base to official Music Assistant 2.10.6 while
