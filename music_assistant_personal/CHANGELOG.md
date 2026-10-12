@@ -1,3 +1,12 @@
+## 2.10.6.dev7
+
+- Correct the personal image overlay so the Sonic Character reconciliation code is
+  installed in the running container; the dev6 source fix was not included at runtime.
+- Verify the installed image contains stale-entry pruning, replacement detection and
+  the forced Character rebuild path before publication.
+- Run the complete Sonic Similarity provider test suite as part of every personal
+  image publication.
+
 ## 2.10.6.dev6
 
 - Reconcile the Sonic Character index with the audio-analysis rows, removing stale
