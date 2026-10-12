@@ -1,3 +1,13 @@
+## 2.10.6.dev6
+
+- Reconcile the Sonic Character index with the audio-analysis rows, removing stale
+  entries after tracks or albums are removed from the library.
+- Detect replaced analyses even when the total row count is unchanged, and fully
+  rebuild Character so an existing track receives its current CLAP embedding.
+- Make the manual Sonic rebuild recreate Character from SQLite while keeping the
+  periodic path incremental for normal additions and deletions.
+- Preserve existing LDA sidecars and analysis data; no library reanalysis is required.
+
 ## 2.10.6.dev5
 
 - Suppress the false background-task notification after adding one playlist track;
