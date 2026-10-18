@@ -1,3 +1,13 @@
+## 2.10.7.dev1
+
+- Update the personal image to official Music Assistant stable 2.10.7.
+- Preserve local-edition matching, local FLAC recommendations, combined Similar
+  Tracks, Sonos HTTPS artwork, precomputed analysis sidecars and Sonic index
+  reconciliation, one-second metadata pacing and synchronous single-track additions.
+- Combine upstream Sonic rebuild locking and retry fixes with replacement detection
+  and forced Character rebuilds; retain Last.fm incomplete-search protection.
+- Extend image publication checks to cover Last.fm and Sonos regressions.
+
 ## 2.10.6.dev7
 
 - Correct the personal image overlay so the Sonic Character reconciliation code is
