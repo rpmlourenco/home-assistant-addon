@@ -1,3 +1,12 @@
+## 2.10.8.dev1
+
+- Update the personal image to official Music Assistant stable 2.10.8.
+- Preserve local-edition matching, local FLAC recommendations, combined Similar
+  Tracks, Sonos HTTPS artwork, analysis sidecars, Sonic reconciliation,
+  one-second metadata pacing and synchronous single-track playlist additions.
+- Combine the official DSD PCM sizing fix with personal decoded-codec handling.
+- Include upstream playback, queue, provider and Home Assistant fixes.
+
 ## 2.10.7.dev1
 
 - Update the personal image to official Music Assistant stable 2.10.7.
